@@ -1,2 +1,3 @@
-# mudblazor-augcenter
-this is project demo UI for mudblazor
+# MUDBLAZOR FOR AUGCENTER CLIENT
+
+- For CURD with Products
