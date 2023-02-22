@@ -1,3 +1,6 @@
-mudblazor-augcenter/bin
-mudblazor-augcenter/.config
-mudblazor-augcenter/obj
+/bin
+/.config
+/obj
+/.vscode
+/.git
+

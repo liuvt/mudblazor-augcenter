@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "hCB6IrqFzK3Yu7TSsH9BwLsMnS/GWjHSgvWD1s9Tamg=",
+  "Hash": "aTZCYuwFIjT8x17FzC0+OomYy+GevfD5ZMfc9WwX9D8=",
   "Source": "mudblazor-augcenter",
   "BasePath": "_content/mudblazor-augcenter",
   "Mode": "Default",
@@ -16,6 +16,40 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "/root/.nuget/packages/mudblazor/6.1.9/staticwebassets/MudBlazor.min.css",
+      "SourceId": "MudBlazor",
+      "SourceType": "Package",
+      "ContentRoot": "/root/.nuget/packages/mudblazor/6.1.9/staticwebassets/",
+      "BasePath": "_content/MudBlazor",
+      "RelativePath": "MudBlazor.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/root/.nuget/packages/mudblazor/6.1.9/staticwebassets/MudBlazor.min.css"
+    },
+    {
+      "Identity": "/root/.nuget/packages/mudblazor/6.1.9/staticwebassets/MudBlazor.min.js",
+      "SourceId": "MudBlazor",
+      "SourceType": "Package",
+      "ContentRoot": "/root/.nuget/packages/mudblazor/6.1.9/staticwebassets/",
+      "BasePath": "_content/MudBlazor",
+      "RelativePath": "MudBlazor.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/root/.nuget/packages/mudblazor/6.1.9/staticwebassets/MudBlazor.min.js"
+    },
     {
       "Identity": "/root/projects/mudblazor-augcenter/obj/Debug/net6.0/scopedcss/bundle/mudblazor-augcenter.styles.css",
       "SourceId": "mudblazor-augcenter",

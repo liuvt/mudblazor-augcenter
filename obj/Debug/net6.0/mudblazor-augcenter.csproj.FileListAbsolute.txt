@@ -7,6 +7,16 @@
 /root/projects/mudblazor-augcenter/bin/Debug/net6.0/mudblazor-augcenter.dll
 /root/projects/mudblazor-augcenter/bin/Debug/net6.0/ref/mudblazor-augcenter.dll
 /root/projects/mudblazor-augcenter/bin/Debug/net6.0/mudblazor-augcenter.pdb
+/root/projects/mudblazor-augcenter/bin/Debug/net6.0/Microsoft.AspNetCore.Authorization.dll
+/root/projects/mudblazor-augcenter/bin/Debug/net6.0/Microsoft.AspNetCore.Components.dll
+/root/projects/mudblazor-augcenter/bin/Debug/net6.0/Microsoft.AspNetCore.Components.Forms.dll
+/root/projects/mudblazor-augcenter/bin/Debug/net6.0/Microsoft.AspNetCore.Components.Web.dll
+/root/projects/mudblazor-augcenter/bin/Debug/net6.0/Microsoft.AspNetCore.Metadata.dll
+/root/projects/mudblazor-augcenter/bin/Debug/net6.0/Microsoft.Extensions.DependencyInjection.dll
+/root/projects/mudblazor-augcenter/bin/Debug/net6.0/Microsoft.Extensions.Logging.Abstractions.dll
+/root/projects/mudblazor-augcenter/bin/Debug/net6.0/Microsoft.JSInterop.dll
+/root/projects/mudblazor-augcenter/bin/Debug/net6.0/MudBlazor.dll
+/root/projects/mudblazor-augcenter/bin/Debug/net6.0/System.IO.Pipelines.dll
 /root/projects/mudblazor-augcenter/obj/Debug/net6.0/mudblazor-augcenter.csproj.AssemblyReference.cache
 /root/projects/mudblazor-augcenter/obj/Debug/net6.0/mudblazor-augcenter.GeneratedMSBuildEditorConfig.editorconfig
 /root/projects/mudblazor-augcenter/obj/Debug/net6.0/mudblazor-augcenter.AssemblyInfoInputs.cache
@@ -21,6 +31,7 @@
 /root/projects/mudblazor-augcenter/obj/Debug/net6.0/scopedcss/Shared/NavMenu.razor.rz.scp.css
 /root/projects/mudblazor-augcenter/obj/Debug/net6.0/scopedcss/bundle/mudblazor-augcenter.styles.css
 /root/projects/mudblazor-augcenter/obj/Debug/net6.0/scopedcss/projectbundle/mudblazor-augcenter.bundle.scp.css
+/root/projects/mudblazor-augcenter/obj/Debug/net6.0/mudblazor-augcenter.csproj.CopyComplete
 /root/projects/mudblazor-augcenter/obj/Debug/net6.0/mudblazor-augcenter.dll
 /root/projects/mudblazor-augcenter/obj/Debug/net6.0/ref/mudblazor-augcenter.dll
 /root/projects/mudblazor-augcenter/obj/Debug/net6.0/mudblazor-augcenter.pdb
