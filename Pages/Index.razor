@@ -1,9 +1,27 @@
 ﻿@page "/"
+@inject ProductsInit listProductsInit
 
 <PageTitle>Index</PageTitle>
 
 <h1>Hello, world!</h1>
 
-Welcome to your new app.
+<MudDataGrid Items="@listProducts">
+    <Columns>
+        <Column T="Product" Field="ProductId" Title="ID"/>
+        <Column T="Product" Field="ProductSku" Title="Ma SP"/>
+        <Column T="Product" Field="ProductName" Title="Ten SP"/>
+        <Column T="Product" Field="ProductPrice" Title="Don Gia"/>
+        <Column T="Product" Field="ProductCartDesc" Title="Hang SX"/>
+    </Columns>
+</MudDataGrid>
 
 <SurveyPrompt Title="How is Blazor working for you?" />
+
+@code{
+
+    private List<Product> listProducts { get; set; }
+    protected override async Task OnInitializedAsync()
+    {
+        listProducts = listProductsInit.Products;
+    }
+}

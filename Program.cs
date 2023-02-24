@@ -1,13 +1,20 @@
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Web;
 using mudblazor_augcenter.Data;
+using MudBlazor.Services;
+using mudblazor_augcenter.Models;
 
 var builder = WebApplication.CreateBuilder(args);
+
+// Add MudBlazor Service
+builder.Services.AddMudServices();
 
 // Add services to the container.
 builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
 builder.Services.AddSingleton<WeatherForecastService>();
+builder.Services.AddSingleton<ProductsInit>();
+
 
 var app = builder.Build();
 

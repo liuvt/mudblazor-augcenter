@@ -1,3 +1,11 @@
+/root/projects/mudblazor-augcenter/obj/Debug/net6.0/mudblazor-augcenter.csproj.AssemblyReference.cache
+/root/projects/mudblazor-augcenter/obj/Debug/net6.0/mudblazor-augcenter.GeneratedMSBuildEditorConfig.editorconfig
+/root/projects/mudblazor-augcenter/obj/Debug/net6.0/mudblazor-augcenter.AssemblyInfoInputs.cache
+/root/projects/mudblazor-augcenter/obj/Debug/net6.0/mudblazor-augcenter.AssemblyInfo.cs
+/root/projects/mudblazor-augcenter/obj/Debug/net6.0/mudblazor-augcenter.csproj.CoreCompileInputs.cache
+/root/projects/mudblazor-augcenter/obj/Debug/net6.0/mudblazor-augcenter.MvcApplicationPartsAssemblyInfo.cache
+/root/projects/mudblazor-augcenter/obj/Debug/net6.0/mudblazor-augcenter.RazorAssemblyInfo.cache
+/root/projects/mudblazor-augcenter/obj/Debug/net6.0/mudblazor-augcenter.RazorAssemblyInfo.cs
 /root/projects/mudblazor-augcenter/bin/Debug/net6.0/appsettings.Development.json
 /root/projects/mudblazor-augcenter/bin/Debug/net6.0/appsettings.json
 /root/projects/mudblazor-augcenter/bin/Debug/net6.0/mudblazor-augcenter.staticwebassets.runtime.json
@@ -17,14 +25,6 @@
 /root/projects/mudblazor-augcenter/bin/Debug/net6.0/Microsoft.JSInterop.dll
 /root/projects/mudblazor-augcenter/bin/Debug/net6.0/MudBlazor.dll
 /root/projects/mudblazor-augcenter/bin/Debug/net6.0/System.IO.Pipelines.dll
-/root/projects/mudblazor-augcenter/obj/Debug/net6.0/mudblazor-augcenter.csproj.AssemblyReference.cache
-/root/projects/mudblazor-augcenter/obj/Debug/net6.0/mudblazor-augcenter.GeneratedMSBuildEditorConfig.editorconfig
-/root/projects/mudblazor-augcenter/obj/Debug/net6.0/mudblazor-augcenter.AssemblyInfoInputs.cache
-/root/projects/mudblazor-augcenter/obj/Debug/net6.0/mudblazor-augcenter.AssemblyInfo.cs
-/root/projects/mudblazor-augcenter/obj/Debug/net6.0/mudblazor-augcenter.csproj.CoreCompileInputs.cache
-/root/projects/mudblazor-augcenter/obj/Debug/net6.0/mudblazor-augcenter.MvcApplicationPartsAssemblyInfo.cache
-/root/projects/mudblazor-augcenter/obj/Debug/net6.0/mudblazor-augcenter.RazorAssemblyInfo.cache
-/root/projects/mudblazor-augcenter/obj/Debug/net6.0/mudblazor-augcenter.RazorAssemblyInfo.cs
 /root/projects/mudblazor-augcenter/obj/Debug/net6.0/staticwebassets.build.json
 /root/projects/mudblazor-augcenter/obj/Debug/net6.0/staticwebassets.development.json
 /root/projects/mudblazor-augcenter/obj/Debug/net6.0/scopedcss/Shared/MainLayout.razor.rz.scp.css
