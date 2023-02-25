@@ -17,8 +17,8 @@
     >
     <ToolBarContent>
         <MudText Typo="Typo.h6">Danh sach san pham</MudText>
-        <br/>
         <MudIconButton Size="@Size.Small" Icon="@Icons.Material.Outlined.Delete"/>
+        <MudIconButton Size="@Size.Small" Icon="@Icons.Material.Outlined.Add" href="/product/post"/>
         <MudSpacer />
         <MudTextField @bind-Value="_searchString" Placeholder="Tim kiem san pham..." Adornment="Adornment.Start" Immediate="true"
             AdornmentIcon="@Icons.Material.Filled.Search" IconSize="Size.Medium" Class="mt-0"></MudTextField>

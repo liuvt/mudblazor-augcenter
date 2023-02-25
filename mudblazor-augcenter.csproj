@@ -8,7 +8,9 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Blazored.TextEditor" Version="1.0.8" />
     <PackageReference Include="MudBlazor" Version="6.1.9" />
+    <PackageReference Include="WYSIWYGTextEditor" Version="1.0.1" />
   </ItemGroup>
 
 </Project>

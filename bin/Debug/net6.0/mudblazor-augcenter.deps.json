@@ -8,10 +8,24 @@
     ".NETCoreApp,Version=v6.0": {
       "mudblazor-augcenter/1.0.0": {
         "dependencies": {
-          "MudBlazor": "6.1.9"
+          "Blazored.TextEditor": "1.0.8",
+          "MudBlazor": "6.1.9",
+          "WYSIWYGTextEditor": "1.0.1"
         },
         "runtime": {
           "mudblazor-augcenter.dll": {}
+        }
+      },
+      "Blazored.TextEditor/1.0.8": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Components": "6.0.11",
+          "Microsoft.AspNetCore.Components.Web": "6.0.11"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Blazored.TextEditor.dll": {
+            "assemblyVersion": "1.0.8.0",
+            "fileVersion": "1.0.8.0"
+          }
         }
       },
       "Microsoft.AspNetCore.Authorization/6.0.11": {
@@ -134,7 +148,19 @@
           }
         }
       },
-      "System.Runtime.CompilerServices.Unsafe/6.0.0": {}
+      "System.Runtime.CompilerServices.Unsafe/6.0.0": {},
+      "WYSIWYGTextEditor/1.0.1": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Components": "6.0.11",
+          "Microsoft.AspNetCore.Components.Web": "6.0.11"
+        },
+        "runtime": {
+          "lib/netstandard2.0/WYSIWYGTextEditor.dll": {
+            "assemblyVersion": "1.0.1.0",
+            "fileVersion": "1.0.1.0"
+          }
+        }
+      }
     }
   },
   "libraries": {
@@ -142,6 +168,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Blazored.TextEditor/1.0.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+d95FcwpI7saVbMhowYSDBaMgDvUCuukCWGZmu5dRVU+jNrM+hDH79Bf6hmMrigwd0yBriTxn9cEczlCkZmOTQ==",
+      "path": "blazored.texteditor/1.0.8",
+      "hashPath": "blazored.texteditor.1.0.8.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Authorization/6.0.11": {
       "type": "package",
@@ -247,6 +280,13 @@
       "sha512": "sha512-/iUeP3tq1S0XdNNoMz5C9twLSrM/TH+qElHkXWaPvuNOt+99G75NrV0OS2EqHx5wMN7popYjpc8oTjC1y16DLg==",
       "path": "system.runtime.compilerservices.unsafe/6.0.0",
       "hashPath": "system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+    },
+    "WYSIWYGTextEditor/1.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-WwTSBMljlvEBTSzFzwKsVlILaELso4Qz+B+7RAW95bSu6W6TsGB0i2m33sQ5z0zLIxqHELKmE8/2MRSIhbodHQ==",
+      "path": "wysiwygtexteditor/1.0.1",
+      "hashPath": "wysiwygtexteditor.1.0.1.nupkg.sha512"
     }
   }
 }

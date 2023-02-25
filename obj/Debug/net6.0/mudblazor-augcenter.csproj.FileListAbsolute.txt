@@ -36,3 +36,5 @@
 /root/projects/mudblazor-augcenter/obj/Debug/net6.0/ref/mudblazor-augcenter.dll
 /root/projects/mudblazor-augcenter/obj/Debug/net6.0/mudblazor-augcenter.pdb
 /root/projects/mudblazor-augcenter/obj/Debug/net6.0/mudblazor-augcenter.genruntimeconfig.cache
+/root/projects/mudblazor-augcenter/bin/Debug/net6.0/Blazored.TextEditor.dll
+/root/projects/mudblazor-augcenter/bin/Debug/net6.0/WYSIWYGTextEditor.dll

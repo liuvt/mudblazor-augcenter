@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "y2sqxvmKMragPiLg2RG6fCIo5Iv3UyhhqgFlSKAVqgDTL+d+J4TXUcjjrVT2sbGvP9zU+PVGnt3tSo2raO/YnA==",
+  "dgSpecHash": "CIKGHH467hG/8e+5pVl/6paGPSp/bTdnC/aoeNLuuHLfV8kFc+fKwQHtz4tFFZa7IDH7MZlVYYsJRH3F8TvDhA==",
   "success": true,
   "projectFilePath": "/root/projects/mudblazor-augcenter/mudblazor-augcenter.csproj",
   "expectedPackageFiles": [
+    "/root/.nuget/packages/blazored.texteditor/1.0.8/blazored.texteditor.1.0.8.nupkg.sha512",
     "/root/.nuget/packages/microsoft.aspnetcore.authorization/6.0.11/microsoft.aspnetcore.authorization.6.0.11.nupkg.sha512",
     "/root/.nuget/packages/microsoft.aspnetcore.components/6.0.11/microsoft.aspnetcore.components.6.0.11.nupkg.sha512",
     "/root/.nuget/packages/microsoft.aspnetcore.components.analyzers/6.0.11/microsoft.aspnetcore.components.analyzers.6.0.11.nupkg.sha512",
@@ -18,7 +19,8 @@
     "/root/.nuget/packages/microsoft.jsinterop/6.0.11/microsoft.jsinterop.6.0.11.nupkg.sha512",
     "/root/.nuget/packages/mudblazor/6.1.9/mudblazor.6.1.9.nupkg.sha512",
     "/root/.nuget/packages/system.io.pipelines/6.0.3/system.io.pipelines.6.0.3.nupkg.sha512",
-    "/root/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+    "/root/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "/root/.nuget/packages/wysiwygtexteditor/1.0.1/wysiwygtexteditor.1.0.1.nupkg.sha512"
   ],
   "logs": []
 }

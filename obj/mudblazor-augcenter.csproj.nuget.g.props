@@ -13,6 +13,8 @@
     <SourceRoot Include="/root/.nuget/packages/" />
   </ItemGroup>
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)wysiwygtexteditor/1.0.1/buildTransitive/WYSIWYGTextEditor.props" Condition="Exists('$(NuGetPackageRoot)wysiwygtexteditor/1.0.1/buildTransitive/WYSIWYGTextEditor.props')" />
     <Import Project="$(NuGetPackageRoot)mudblazor/6.1.9/buildTransitive/MudBlazor.props" Condition="Exists('$(NuGetPackageRoot)mudblazor/6.1.9/buildTransitive/MudBlazor.props')" />
+    <Import Project="$(NuGetPackageRoot)blazored.texteditor/1.0.8/buildTransitive/Blazored.TextEditor.props" Condition="Exists('$(NuGetPackageRoot)blazored.texteditor/1.0.8/buildTransitive/Blazored.TextEditor.props')" />
   </ImportGroup>
 </Project>
