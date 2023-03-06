@@ -12,9 +12,12 @@ builder.Services.AddMudServices();
 // Add services to the container.
 builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
-builder.Services.AddSingleton<WeatherForecastService>();
 builder.Services.AddSingleton<ProductsInit>();
 
+//Tăng kích thước bộ nhớ đệm
+builder.Services.AddSignalR(e => {
+                e.MaximumReceiveMessageSize = 102400000;
+            });
 
 var app = builder.Build();
 

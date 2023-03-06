@@ -12,3 +12,13 @@ vivek@nixcraft:~$ rm -rf --DirectoryNameHere
 vivek@nixcraft:~$ rm ./-file
 vivek@nixcraft:~$ rm -rf ./--DirectoryNameHere
 ````
+
+<h3>Increase Cache Size</3>
+
+- Allow Client send file > 32KB
+**Program.cs**
+````
+builder.Services.AddSignalR(e => {
+                e.MaximumReceiveMessageSize = 102400000;
+            });
+````

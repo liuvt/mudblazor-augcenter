@@ -1,4 +1,6 @@
-namespace mudblazor_augcenter.Models
+using mudblazor_augcenter.Models;
+
+namespace mudblazor_augcenter.Data
 {
     public class ProductsInit
     {
