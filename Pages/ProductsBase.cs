@@ -7,7 +7,6 @@ namespace mudblazor_augcenter.Pages
 {
     public class ProductsBase: ComponentBase
     {
-
         protected string ErrorMessage { get; set; }        
         protected string TittlePage { get; set; }
         protected Product productModel = new Product();
