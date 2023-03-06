@@ -1,41 +1,97 @@
 @page "/product/post"
 @inherits ProductPostBase
 
-<style>
+    <EditForm Model="@productPost" OnValidSubmit="OnValidSubmit">
+        <DataAnnotationsValidator />
+        <MudGrid>
+            <MudItem xs="12" sm="5">
+                <MudCard>
+                    <MudCardContent>
+                        <MudText Typo="Typo.h6">TẠO MỚI SẢN PHẨM</MudText>
+                        <MudTextField Label="Mã SKU*" HelperText="Mã sản phẩm SKU."
+                            @bind-Value="productPost.ProductSku" For="@(() => productPost.ProductSku)" />
+                        <MudTextField Label="Tên sản phẩm*" HelperText="Tên của sản phẩm." 
+                            @bind-Value="productPost.ProductName" For="@(() => productPost.ProductName)" />
+                        <MudTextField Label="Đơn giá (VNĐ)*" HelperText="Đơn giá bán sản phẩm." 
+                            @bind-Value="productPost.ProductPrice" For="@(() => productPost.ProductPrice)" />
+                        <MudTextField Label="Thương hiệu*" HelperText="Hãng sản xuất."
+                            @bind-Value="productPost.ProductCartDesc" For="@(() => productPost.ProductCartDesc)" />
+                        <MudTextField Label="Mô tả*" HelperText="Mô tả về sản phẩm."
+                            @bind-Value="productPost.ProductShortDesc" For="@(() => productPost.ProductShortDesc)" />
+                        <MudTextField Label="Giới thiệu*" HelperText="Giới thiệu sản phẩm."
+                            @bind-Value="productPost.ProductLongDesc" For="@(() => productPost.ProductLongDesc)" />
+                        <MudTextField Label="Tồn kho*" HelperText="Tổng số lượng sản phẩm hiện có." 
+                            @bind-Value="productPost.ProductStock" For="@(() => productPost.ProductStock)" />
+                        <MudTextField Label="Vị trí*" HelperText="Vị trí kho đặt sản phẩm."
+                            @bind-Value="productPost.ProductLocation" For="@(() => productPost.ProductLocation)" />
+                        <MudTextField Label="Loại*" HelperText="Loại sản phẩm."
+                            @bind-Value="productPost.CategoryId" For="@(() => productPost.CategoryId)" />
+                    </MudCardContent>
+                    <MudCardActions Class="d-flex justify-space-between pa-4">
+                        <MudIconButton Color="Color.Secondary" Icon="@Icons.Material.Filled.Delete" 
+                            aria-label="delete" OnClick="ResetModel_Click">
+                        </MudIconButton>
+                        <MudButton StartIcon="@Icons.Material.Filled.AppRegistration" ButtonType="ButtonType.Submit" 
+                            Variant="Variant.Filled" Color="Color.Primary" Class="ml-auto text-end" Disabled="@_processing">
+                            @if (_processing)
+                            {
+                                <MudProgressCircular Class="ms-n1" Size="Size.Small" Indeterminate="true"/>
+                                <MudText Class="ms-2">Processing</MudText>
+                            }
+                            else
+                            {
+                                <MudText>Tạo mới</MudText>
+                            }
+                        </MudButton>
+                    </MudCardActions>
+                    <MudCardContent>
+                        <MudText Typo="Typo.h6">Trạng thái:</MudText>
+                        <MudText Color="@Color.Error">
+                            <ValidationSummary />
+                        </MudText>
+                        <MudText Color="@Color.Error">@result</MudText>
+                    </MudCardContent>
+                </MudCard>
+            </MudItem>
+            <MudItem xs="12" sm="7">
+                <MudText Typo="Typo.h6">Giới thiệu sản phẩm:</MudText>
+                <TextEditor Toolbar="new Toolbar { ShowFullToolbar=true }" EditorContainerId="TestId" 
+                    @ref="@MyEditor" Fonts="Fonts" Placeholder="Enter non HTML format like centering...">
+                </TextEditor>
+                <MudButton Color="Color.Primary" OnClick="@(()=>GetHTML())">HTML</MudButton>
+                <MudButton Color="Color.Primary" OnClick="@(()=>GetContent())">Content</MudButton>
+                <div>
+                        <br />
+                        @((MarkupString)QuillHTMLContent)
+                        @QuillHTMLContent
+                        <br />
+                        @QuillContent
+                </div>
+            </MudItem>
+        </MudGrid>
+    </EditForm>
+
+<style type="text/css">
     /*SET THE DEFAULT FONT*/
     #TestId {
-        font-family: "MS Gothic";
+        font-family: "Courier";
         font-size: 18px;
         height: 375px;
     }
-
     /*DEFINE ALL OF THE CUSTOM FONTS*/
     .ql-font-MSGothic {
-        font-family: 'MS Gothic';
+        font-family: 'Courier';
     }
-
     .ql-font-Bahnschrift {
         font-family: 'Bahnschrift'
     }
-
     .ql-font-Impact {
         font-family: 'Impact';
     }
-
     .ql-font-Courier {
-        font-family: 'Courier';
+        font-family: 'MS Gothic';
     }
-
     .ql-font-Comic {
         font-family: 'Comic Sans MS';
     }
 </style>
-
-<TextEditor Toolbar="new Toolbar { ShowFullToolbar=true }" EditorContainerId="TestId" @ref="@MyEditor" Fonts="Fonts"
-            Placeholder="Enter non HTML format like centering...">
-</TextEditor>
-
-@code{
-    List<string> Fonts = new List<string> { "MSGothic", "Impact", "Courier", "Comic", "Bahnschrift" }; //be sure to set the default font as the first in the list
-    TextEditor MyEditor;
-}

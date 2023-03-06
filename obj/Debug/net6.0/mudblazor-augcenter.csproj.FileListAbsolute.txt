@@ -15,6 +15,7 @@
 /root/projects/mudblazor-augcenter/bin/Debug/net6.0/mudblazor-augcenter.dll
 /root/projects/mudblazor-augcenter/bin/Debug/net6.0/ref/mudblazor-augcenter.dll
 /root/projects/mudblazor-augcenter/bin/Debug/net6.0/mudblazor-augcenter.pdb
+/root/projects/mudblazor-augcenter/bin/Debug/net6.0/Blazored.TextEditor.dll
 /root/projects/mudblazor-augcenter/bin/Debug/net6.0/Microsoft.AspNetCore.Authorization.dll
 /root/projects/mudblazor-augcenter/bin/Debug/net6.0/Microsoft.AspNetCore.Components.dll
 /root/projects/mudblazor-augcenter/bin/Debug/net6.0/Microsoft.AspNetCore.Components.Forms.dll
@@ -25,6 +26,7 @@
 /root/projects/mudblazor-augcenter/bin/Debug/net6.0/Microsoft.JSInterop.dll
 /root/projects/mudblazor-augcenter/bin/Debug/net6.0/MudBlazor.dll
 /root/projects/mudblazor-augcenter/bin/Debug/net6.0/System.IO.Pipelines.dll
+/root/projects/mudblazor-augcenter/bin/Debug/net6.0/WYSIWYGTextEditor.dll
 /root/projects/mudblazor-augcenter/obj/Debug/net6.0/staticwebassets.build.json
 /root/projects/mudblazor-augcenter/obj/Debug/net6.0/staticwebassets.development.json
 /root/projects/mudblazor-augcenter/obj/Debug/net6.0/scopedcss/Shared/MainLayout.razor.rz.scp.css
@@ -36,5 +38,3 @@
 /root/projects/mudblazor-augcenter/obj/Debug/net6.0/ref/mudblazor-augcenter.dll
 /root/projects/mudblazor-augcenter/obj/Debug/net6.0/mudblazor-augcenter.pdb
 /root/projects/mudblazor-augcenter/obj/Debug/net6.0/mudblazor-augcenter.genruntimeconfig.cache
-/root/projects/mudblazor-augcenter/bin/Debug/net6.0/Blazored.TextEditor.dll
-/root/projects/mudblazor-augcenter/bin/Debug/net6.0/WYSIWYGTextEditor.dll
